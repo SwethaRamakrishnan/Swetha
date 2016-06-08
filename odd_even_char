@@ -1,0 +1,19 @@
+def main():
+    string=str(input("enter string"))
+    n=length(string)
+    if(n%2!=0)
+       n=n-1
+    l=list(string)
+    a=0
+    while(a<n)
+      temp=l[a]
+      l[a]=l[a+1]
+      l[a+1]=temp
+      a=a+2
+    ans=l[0]
+    length=len(1)
+    for i in range(0.length-1)
+        ans=ans+l[i+1]
+        print(ans)
+main()
+    
